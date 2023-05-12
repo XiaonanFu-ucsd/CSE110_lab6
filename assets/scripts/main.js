@@ -131,7 +131,7 @@ function initFormHandler() {
 
 
 window.addLocalStorage = function() {
-    let path = "../../reference/recipes.json";
+    let path = "./reference/recipes.json";
     fetch(path).then(function(response) {
         return response.json();
     }).then(function(data) {
