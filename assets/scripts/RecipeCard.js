@@ -100,22 +100,22 @@ class RecipeCard extends HTMLElement {
         let ratingImgHTML = ratingHTML.children[1];
         switch (data.rating) {
             case 0:
-                ratingImgHTML.src = "../../assets/images/icons/0-star.svg";
+                ratingImgHTML.src = "./assets/images/icons/0-star.svg";
                 break;
             case 1:
-                ratingImgHTML.src = "../../assets/images/icons/1-star.svg";
+                ratingImgHTML.src = "./assets/images/icons/1-star.svg";
                 break;
             case 2:
-                ratingImgHTML.src = "../../assets/images/icons/2-star.svg";
+                ratingImgHTML.src = "./assets/images/icons/2-star.svg";
                 break;
             case 3:
-                ratingImgHTML.src = "../../assets/images/icons/3-star.svg";
+                ratingImgHTML.src = "./assets/images/icons/3-star.svg";
                 break;
             case 4:
-                ratingImgHTML.src = "../../assets/images/icons/4-star.svg";
+                ratingImgHTML.src = "./assets/images/icons/4-star.svg";
                 break;
             case 5:
-                ratingImgHTML.src = "../../assets/images/icons/5-star.svg";
+                ratingImgHTML.src = "./assets/images/icons/5-star.svg";
                 break;
         }
         let ratingCountHTML = ratingHTML.children[2];
