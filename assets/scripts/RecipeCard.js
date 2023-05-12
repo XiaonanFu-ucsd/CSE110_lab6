@@ -27,7 +27,7 @@ class RecipeCard extends HTMLElement {
             this.styleHTML.innerHTML = tmpHTML.getElementsByTagName('style')[0].innerHTML;
             this.articleHTML.innerHTML = tmpHTML.getElementsByTagName('article')[0].innerHTML;
         } else {
-            fetch("../../reference/cardTemplate.html").then(
+            fetch("./reference/cardTemplate.html").then(
                 (response) => response.text()
             ).then(
                 (data) => {
