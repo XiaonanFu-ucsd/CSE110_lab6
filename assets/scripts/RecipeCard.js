@@ -98,7 +98,9 @@ class RecipeCard extends HTMLElement {
         let ratingHTML = article.getElementsByClassName('rating')[0];
         ratingHTML.children[0].textContent = data.rating;
         let ratingImgHTML = ratingHTML.children[1];
-        switch (data.rating) {
+        let dataRating = data.rating;
+        dataRating = parseInt(dataRating);
+        switch (dataRating) {
             case 0:
                 ratingImgHTML.src = "./assets/images/icons/0-star.svg";
                 break;
